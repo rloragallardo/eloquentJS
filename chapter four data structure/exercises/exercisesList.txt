@@ -17,3 +17,24 @@ incrementos de uno, correspondiendo al comportamiento anterior. La llamada
 a la función range(1, 10, 2) debería devolver [1, 3, 5, 7, 9]. Asegúrate de
 que esto también funcione con valores de paso negativos, de modo que range
 (5, 2, -1) produzca [5, 4, 3, 2].
+------------------------------------------------------------------------------------
+Reversión de un array
+Los arrays tienen un método reverse que cambia el array invirtiendo el orden
+en el que aparecen sus elementos. Para este ejercicio, escribe dos fun-
+ciones, reverseArray y reverseArrayInPlace. La primera, reverseArray, debería
+tomar un array como argumento y producir un nuevo array que tenga los
+mismos elementos en orden inverso. La segunda, reverseArrayInPlace, debería
+hacer lo que hace el método reverse: modificar el array dado como argumento
+invirtiendo sus elementos. Ninguna de las funciones puede utilizar el método
+reverse estándar.
+Recordando las notas sobre efectos secundarios y funciones puras en el capí-
+tulo anterior, ¿qué variante esperas que sea útil en más situaciones? ¿Cuál se
+ejecuta más rápido?
+----------------------------------------------------------------------------------------
+
+Lista
+Como bloques genéricos de valores, los objetos se pueden utilizar para construir
+todo tipo de estructuras de datos. Una estructura de datos común es la lista
+(no confundir con arrays). Una lista es un conjunto anidado de objetos, donde
+el primer objeto contiene una referencia al segundo, el segundo al tercero, y así
+sucesivamente:
